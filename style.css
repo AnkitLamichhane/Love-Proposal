@@ -1,0 +1,107 @@
+/* initialphase */
+*{
+    margin: 0px;
+}
+body{
+    font:20px;
+    overflow: hidden;
+}
+.heart{
+    height: 100vh;
+    background-image: url("./heart.png");
+}
+.main{
+    position:absolute;
+    top: 40%;
+    left:20%;
+    height:60%;
+    width:60%;
+
+}
+.input{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 40px;
+    width: 60%;
+}
+input{
+    outline-style: none;
+    background: none;
+    border: none;
+    flex:3;
+    width: 150%;
+    margin-left:-35%;
+    padding: 30px;
+    margin-top: 30px;
+    font-size:18px;
+}
+
+input:focus{
+    outline: none;
+}
+.btn{
+    background-color:pink;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 80%;
+}
+.btn:hover{
+    transition: all 0.5s ease;
+    transform: scale(1.5);
+
+}
+
+@media(max-width:1000px){
+    .input{
+        width:95%;
+        padding:0px;
+    }
+    input{
+        width: 70%;
+        margin-left: 15px;
+        font-size:18px;
+    }
+    .btn{
+        margin-left:65px;
+        width:45%
+    }
+}
+
+/*animation*/
+.rain10{
+    margin:10px;
+}
+.hor{
+    height:4px;
+    width: 50px;
+    background-color: black;
+    margin:50px;
+}
+.ver{
+    height:50px;
+    width:4px;
+    background-color:black;
+    margin:30px;
+}
+.vertical2{
+    transform: rotate(30deg);
+}
+.vertical3{
+    transform: rotate(-30deg);
+}
+.box{
+    height:50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+  
+
+
