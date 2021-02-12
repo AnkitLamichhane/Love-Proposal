@@ -49,7 +49,7 @@ const backToTop = () =>{
     //displaying back
     document.querySelector(".animeTool").style.display="block"
  //Moving animetool to top
- tl.to(".animeTool",{y:-600,duration:1},"+=0.5");
+ tl.to(".animeTool",{y:-580,duration:1},"+=0.5");
 }
 //check for enter key
 const checkKey = (event)=>{
