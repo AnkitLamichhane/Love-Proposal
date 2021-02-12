@@ -57,7 +57,7 @@ input:focus{
 
 }
 
-@media(max-width:1000px){
+@media(max-width:1300px){
     .input{
         width:95%;
         padding:0px;
