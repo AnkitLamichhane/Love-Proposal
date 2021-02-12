@@ -56,6 +56,9 @@ input:focus{
     transform: scale(1.5);
 
 }
+.animeTool{
+height:100vh;
+}
 
 @media(max-width:1300px){
     .input{
@@ -74,9 +77,7 @@ input:focus{
 }
 
 /*animation*/
-.rain10{
-    margin:10px;
-}
+
 .hor{
     height:4px;
     width: 50px;
