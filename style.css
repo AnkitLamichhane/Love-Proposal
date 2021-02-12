@@ -57,7 +57,7 @@ input:focus{
 
 }
 .animeTool{
-height:100vh;
+    height:auto;
 }
 
 @media(max-width:1300px){
@@ -73,6 +73,10 @@ height:100vh;
     .btn{
         margin-left:65px;
         width:45%
+    }
+    .animeTool{
+
+        height:auto;
     }
 }
 
